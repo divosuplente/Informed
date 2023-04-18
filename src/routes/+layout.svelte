@@ -3,6 +3,7 @@
 	import VimeoIcon from '$lib/components/VimeoIcon.svelte';
 	import LinkedinIcon from '$lib/components/LinkedinIcon.svelte';
 	import InstagramIcon from '$lib/components/InstagramIcon.svelte';
+	import CopyrightIcon from '$lib/components/CopyrightIcon.svelte';
 	let lang = 'EN';
 	let year = new Date().getFullYear();
 </script>
@@ -65,7 +66,7 @@
 		<div id="bottom-right">
 			<ul class="flex gap-8 items-center">
 				<li>KvK 75158337</li>
-				<li>®{year} Informed</li>
+				<li id="copyright" class="flex items-center"><CopyrightIcon /> {year} Informed</li>
 			</ul>
 		</div>
 	</div>
@@ -75,5 +76,11 @@
 	:global(svg) {
 		height: 1rem;
 		width: 1rem;
+	}
+
+  :global(li#copyright > svg) {
+		height: 0.875rem;
+		width: 0.875rem;
+    margin-right: 3px;
 	}
 </style>
