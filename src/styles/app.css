@@ -1,0 +1,10 @@
+@import url('/fonts/fonts.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: Nexa;
+	background-color: #f2f2f2;
+}

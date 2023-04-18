@@ -1,0 +1,155 @@
+@font-face {
+	font-family: 'Nexa';
+	src: url('/fonts/Nexa-Black.woff2') format('woff2'), url('/fonts/Nexa-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('/fonts/Nexa-Heavy.woff2') format('woff2'), url('/fonts/Nexa-Heavy.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('/fonts/Nexa-Light.woff2') format('woff2'), url('/fonts/Nexa-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('/fonts/Nexa-HeavyItalic.woff2') format('woff2'),
+		url('/fonts/Nexa-HeavyItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('/fonts/Nexa-LightItalic.woff2') format('woff2'),
+		url('/fonts/Nexa-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('/fonts/Nexa-BlackItalic.woff2') format('woff2'),
+		url('/fonts/Nexa-BlackItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa Extra';
+	src: url('/fonts/Nexa-ExtraLightItalic.woff2') format('woff2'),
+		url('/fonts/Nexa-ExtraLightItalic.woff') format('woff');
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa Book';
+	src: url('/fonts/Nexa-Book.woff2') format('woff2'), url('/fonts/Nexa-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa Extra';
+	src: url('/fonts/Nexa-ExtraBoldItalic.woff2') format('woff2'),
+		url('/fonts/Nexa-ExtraBoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('/fonts/Nexa-Thin.woff2') format('woff2'), url('/fonts/Nexa-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa Extra';
+	src: url('/fonts/Nexa-ExtraLight.woff2') format('woff2'),
+		url('/fonts/Nexa-ExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa Extra';
+	src: url('/fonts/Nexa-ExtraBold.woff2') format('woff2'),
+		url('/fonts/Nexa-ExtraBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('/fonts/Nexa-BoldItalic.woff2') format('woff2'),
+		url('/fonts/Nexa-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('/fonts/Nexa-RegularItalic.woff2') format('woff2'),
+		url('/fonts/Nexa-RegularItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('/fonts/Nexa-ThinItalic.woff2') format('woff2'),
+		url('/fonts/Nexa-ThinItalic.woff') format('woff');
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('/fonts/Nexa-Bold.woff2') format('woff2'), url('/fonts/Nexa-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('/fonts/Nexa-Regular.woff2') format('woff2'),
+		url('/fonts/Nexa-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nexa Book';
+	src: url('/fonts/Nexa-BookItalic.woff2') format('woff2'),
+		url('/fonts/Nexa-BookItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
