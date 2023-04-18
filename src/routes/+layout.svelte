@@ -29,7 +29,7 @@
 	</div>
 </header>
 <slot />
-<footer class="bg-[#d2d2d2] text-sm">
+<footer class="bg-gray-200 text-sm">
 	<div id="top" class="flex items-center mx-6 justify-between pt-5">
 		<div id="footer-logo" class="w-40">
 			<img src="/images/informed.gif" alt="Informed" />
@@ -54,7 +54,7 @@
 			</ul>
 		</div>
 	</div>
-	<hr class="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 mx-6" />
+	<hr class="h-px my-5 bg-gray-200 border-0 dark:bg-gray-400 mx-6" />
 	<div id="bottom" class="flex justify-between mx-6 pb-5">
 		<div id="bottom-left">
 			<ul class="flex gap-8 items-center">
