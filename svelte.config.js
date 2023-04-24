@@ -16,7 +16,8 @@ const config = {
 			runtime: 'nodejs18.x'
 		}),
 		alias: {
-			'components/*': './src/lib/components/*'
+			$components: './src/lib/components',
+			$stores: './src/lib/stores'
 		}
 	}
 };

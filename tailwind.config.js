@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+	content: [
+		'./src/**/*.{html,js,svelte,ts}',
+		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'
+	],
 	theme: {
 		extend: {}
 	},
@@ -8,6 +11,7 @@ export default {
 		require('@tailwindcss/typography'),
 		require('@tailwindcss/aspect-ratio'),
 		require('@tailwindcss/container-queries'),
-		require('@tailwindcss/line-clamp')
-	]
+		require('flowbite/plugin')
+	],
+	darkMode: 'class'
 };
