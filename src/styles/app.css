@@ -1,6 +1,26 @@
 @import url('/fonts/fonts.css');
 
 @tailwind base;
+
+@layer base {
+	:root {
+		color-scheme: light;
+		--navbar-color: white;
+		--header-height: 4rem;
+	}
+
+	.dark {
+		color-scheme: dark;
+		--navbar-color: #547ca;
+	}
+
+	html {
+		height: 100%;
+		-webkit-font-smoothing: antialiased;
+		scroll-padding-top: var(--header-height);
+	}
+}
+
 @tailwind components;
 @tailwind utilities;
 

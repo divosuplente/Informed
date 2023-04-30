@@ -5,30 +5,11 @@
 	import InstagramOutlined from 'svelte-ant-design-icons/InstagramOutlined.svelte'
 	import CopyrightIcon from '$components/CopyrightIcon.svelte';
 	import NavBar from '$components/NavBar.svelte';
+
 	let lang = 'EN';
 	let year = new Date().getFullYear();
 </script>
 
-<!-- <header
-	class="sticky top-0 z-50 flex items-center justify-around p-4 mb-4 backdrop-blur-sm bg-gradient-to-b from-gray-400"
->
-	<div id="logo" class="w-40">
-		<img src="/images/informed.gif" alt="Informed" />
-	</div>
-	<div id="menu" class="">
-		<ul class="flex gap-10 md:gap-12">
-			<li><a href="/" class="no-underline">Home</a></li>
-			<li>
-				<a href="/portfolio" class="no-underline hover:text-white">Portfolio</a>
-			</li>
-			<li><a href="/library" class="no-underline">Library</a></li>
-			<li><a href="/aboutus" class="no-underline">About us</a></li>
-			<li><a href="/contact" class="no-underline">Contact</a></li>
-			<li>|</li>
-			<li>{lang}</li>
-		</ul>
-	</div>
-</header> -->
 <NavBar />
 <slot />
 <footer class="text-sm bg-gray-200">

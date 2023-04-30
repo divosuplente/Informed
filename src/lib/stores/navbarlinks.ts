@@ -36,7 +36,10 @@ export const NavBarLinks = writable<NavBarLink[]>([
 
 export const toggleActive = (name: string) => {
 	NavBarLinks.update((links) => {
-		links.forEach((link) => (link.name === name ? (link.active = true) : (link.active = false)));
+		links.forEach((link) => {
+			const { name: linkName } = link;
+			link.active = linkName === name;
+		});
 		return links;
 	});
 };
