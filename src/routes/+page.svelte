@@ -6,7 +6,7 @@
 <svelte:head>
 	<title>Home - Informed</title>
 </svelte:head>
-<section class="relative container h-[107.2vh] flex flex-col items-center justify-center -mt-[7.2rem] bg-black/60 dark:bg-black/60">
+<section class="relative container h-[107.2vh] min-w-full flex flex-col items-center justify-center -mt-[7.2rem] bg-black/60 dark:bg-black/60 aspect-video">
 	<video class="absolute object-fill w-full h-full -z-10" autoplay loop muted playsinline disablepictureinpicture>
 		<source
     src="/videos/Informed.webm"
